@@ -1,0 +1,58 @@
+Instructions
+Write the definitions of the functions to implement the operations for the class dayType as defined in Programming Exercise 7. Also, write a program to test various operations on this class.
+
+Grading
+When you have completed your program, click the Submit button to record your score.
+
+
+
+
+
+Tasks
+10.00
+out of
+10.00
+Program produces the correct output
+
+0
+1 out of 1 checks passed. Great work!
+
+Checks
+Unit TestComplete
+Program produces the correct output
+
+Build Status
+Build Succeeded
+Test Output
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Days
+[ RUN      ] Days.1
+[       OK ] Days.1 (1 ms)
+[----------] 1 test from Days (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+Test Contents
+TEST(Days, 1) {
+  testing::internal::CaptureStdout();
+  dayType myDay("Monday");
+    dayType temp("Sunday");
+
+    myDay.print();
+    cout << endl;
+
+    cout << myDay.prevDay() << endl;
+
+    cout << myDay.nextDay() << endl;
+
+    temp.print();
+    cout << endl;
+
+    cout << temp.prevDay() << endl;
+
+    cout << temp.nextDay() << endl;
+  std::string output = testing::internal::GetCapturedStdout();
+  ASSERT_EQ(output, "Monday\nSunday\nTuesday\nSunday\nSaturday\nMonday\n");
+}

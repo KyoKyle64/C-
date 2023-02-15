@@ -1,0 +1,62 @@
+Instructions
+Chapter 9 defined the struct studentType to implement the basic properties of a student. Define the class studentType with the same components as the struct studentType, and add member functions to manipulate the data members. (Note that the data members of the class studentType must be private.)
+
+Write a program to illustrate how to use the class studentType.
+
+Struct studentType:
+struct studentType
+{
+ string firstName;
+ string lastName;
+ char courseGrade;
+ int testScore;
+ int programmingScore;
+ double GPA;
+};
+Grading
+When you have completed your program, click the Submit button to record your score.
+
+
+
+
+
+Tasks
+10.00
+out of
+10.00
+Program produces correct output
+
+0
+1 out of 1 checks passed. Great work!
+
+Checks
+Unit TestComplete
+Program produces correct output
+
+Build Status
+Build Succeeded
+Test Output
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Grades
+[ RUN      ] Grades.1
+[       OK ] Grades.1 (2 ms)
+[----------] 1 test from Grades (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+Test Contents
+TEST(Grades, 1) {
+  testing::internal::CaptureStdout();
+  studentType student;
+  studentType newStudent("Brain", "Johnson", '*', 85, 95, 3.89);
+
+  student.print();
+  cout << "***************" << endl << endl;
+
+  newStudent.print();
+  cout << "***************" << endl << endl;
+  std::string output = testing::internal::GetCapturedStdout();
+  ASSERT_EQ(output, "Name:  \nGrade: F\nTest score: 0\nProgramming score: 0\nGPA: 0\n***************\n\nName: Brain Johnson\nGrade: A\nTest score: 85\nProgramming score: 95\nGPA: 3.89\n***************\n\n");
+}

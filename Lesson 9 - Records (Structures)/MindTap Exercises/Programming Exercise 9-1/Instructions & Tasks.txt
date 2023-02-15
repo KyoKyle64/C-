@@ -1,0 +1,124 @@
+Instructions
+Assume the definition of Exercise 2, which defines the struct computerType. Write a program that declares a variable of type computerType, prompts the user to input data about a computer, and outputs the computer’s data.
+
+Example input and output is shown below:
+
+Enter the name of the manufacturer: McPC                             
+
+Enter the model of the computer: 1000                                
+
+Enter processor type: Intel GFX                                      
+
+Enter the size of RAM (in GB): 8                                     
+
+Enter the size of hard drive (in GB): 1000                           
+
+Enter the year the computer was built: 2016                          
+
+Enter the price: 1200                                                
+
+Manufacturer: McPC                                                   
+Model: 1000                                                          
+Processor: Intel GFX                                                 
+Ram: 8                                                               
+Hard Drive Size: 1000                                                
+Year Built: 2016                                                     
+Price: $1200.00 
+Instructions from Exercise 2 have been posted below for your convenience.
+
+Exercise 2
+Define a struct computerType to store the following data about a computer: Manufacturer (string), model type (string), processor type (string), ram (int) in GB, hard drive size (int) in GB, year when the computer was built (int), and the price (double).
+
+Grading
+When you have completed your program, click the Submit button to record your score.
+
+
+
+
+
+Tasks
+10.00
+out of
+10.00
+Program produces the correct output
+
+0
+2 out of 2 checks passed. Great work!
+
+Checks
+Test CaseComplete
+Input / output test 1
+
+Input
+McPC
+1000
+Intel GFC
+8
+500
+2015
+900
+Output
+Enter the name of the manufacturer: McPC
+
+Enter the model of the computer: 1000
+
+Enter processor type: Intel GFC
+
+Enter the size of RAM (in GB): 8
+
+Enter the size of hard drive (in GB): 500
+
+Enter the year the computer was built: 2015
+
+Enter the price: 900
+
+Manufacturer: McPC
+Model: 1000
+Processor: Intel GFC
+Ram: 8
+Hard Drive Size: 500
+Year Built: 2015
+Price: $900.00
+
+Results
+Manufacturer: McPCModel: 1000Processor: Intel GFCRam: 8Hard Drive Size: 500Year Built: 2015Price: $900
+Expected Output
+Manufacturer: McPCModel: 1000Processor: Intel GFCRam: 8Hard Drive Size: 500Year Built: 2015Price: $900
+Test CaseComplete
+Input / output test 2
+
+Input
+BlazePCs
+900X
+AMD 360
+24
+2000
+2016
+3000
+Output
+Enter the name of the manufacturer: BlazePCs
+
+Enter the model of the computer: 900X
+
+Enter processor type: AMD 360
+
+Enter the size of RAM (in GB): 24
+
+Enter the size of hard drive (in GB): 2000
+
+Enter the year the computer was built: 2016
+
+Enter the price: 3000
+
+Manufacturer: BlazePCs
+Model: 900X
+Processor: AMD 360
+Ram: 24
+Hard Drive Size: 2000
+Year Built: 2016
+Price: $3000.00
+
+Results
+Manufacturer: BlazePCsModel: 900XProcessor: AMD 360Ram: 24Hard Drive Size: 2000Year Built: 2016Price: $3000
+Expected Output
+Manufacturer: BlazePCsModel: 900XProcessor: AMD 360Ram: 24Hard Drive Size: 2000Year Built: 2016Price: $3000

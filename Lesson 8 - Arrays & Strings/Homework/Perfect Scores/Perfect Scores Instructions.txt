@@ -1,0 +1,53 @@
+Write a Modular Program that accepts up to 20 integers of quizzes (or test scores) in the range of 0 to 100 from the user and stores them in an array. Then main should report how many perfect scores were entered. (i.e. scores of 100), using a value-returning countPerfect function to help it.
+TIP: You may use the following function prototypes:
+
+int getScores(int[]);
+int countPerfect(int[], int);
+
+/* SAMPLE RUN RESULTS
+ 
+This program will allow you to enter up to 20 scores
+and will then report how many perfect scores were entered.
+ 
+Enter a score 0 - 100 (or -1 to quit): 88
+Enter a score 0 - 100 (or -1 to quit): 93
+Enter a score 0 - 100 (or -1 to quit): 100
+Enter a score 0 - 100 (or -1 to quit): 79
+Enter a score 0 - 100 (or -1 to quit): 82
+Enter a score 0 - 100 (or -1 to quit): 96
+Enter a score 0 - 100 (or -1 to quit): 100
+Enter a score 0 - 100 (or -1 to quit): 93
+Enter a score 0 - 100 (or -1 to quit): 86
+Enter a score 0 - 100 (or -1 to quit): 91
+Enter a score 0 - 100 (or -1 to quit): -1
+ 
+The 10 scores you entered include 2 perfect scores.
+*/
+
+//Perfect Scores
+
+Write a Modular Program that accepts up to 20 integers of quizzes (or test scores) in the range of 0 to 100 from the user and stores them in an array. Then main should report how many perfect scores were entered. (i.e. scores of 100), using a value-returning countPerfect function to help it.
+TIP: You may use the following function prototypes:
+
+int getScores(int[]);
+int countPerfect(int[], int);
+
+/* SAMPLE RUN RESULTS
+ 
+This program will allow you to enter up to 20 scores
+and will then report how many perfect scores were entered.
+ 
+Enter a score 0 - 100 (or -1 to quit): 88
+Enter a score 0 - 100 (or -1 to quit): 93
+Enter a score 0 - 100 (or -1 to quit): 100
+Enter a score 0 - 100 (or -1 to quit): 79
+Enter a score 0 - 100 (or -1 to quit): 82
+Enter a score 0 - 100 (or -1 to quit): 96
+Enter a score 0 - 100 (or -1 to quit): 100
+Enter a score 0 - 100 (or -1 to quit): 93
+Enter a score 0 - 100 (or -1 to quit): 86
+Enter a score 0 - 100 (or -1 to quit): 91
+Enter a score 0 - 100 (or -1 to quit): -1
+ 
+The 10 scores you entered include 2 perfect scores.
+*/

@@ -1,0 +1,44 @@
+Instructions
+Write a program that prompts the user to input a string and outputs the string in uppercase letters. (Use a character array to store the string.)
+
+Grading
+When you have completed your program, click the Submit button to record your score.
+
+
+
+
+
+Tasks
+10.00
+out of
+10.00
+Program Outputs Correctly
+
+0
+2 out of 2 checks passed. Great work!
+
+Checks
+Test CaseComplete
+Successful Output
+
+Input
+jump
+Output
+Enter a string of characters to convert to uppercase: JUMP
+sh: 1: pause: not found
+Results
+JUMP
+Expected Output
+JUMP
+Test CaseComplete
+Successful Output II
+
+Input
+aerospace
+Output
+Enter a string of characters to convert to uppercase: AEROSPACEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+sh: 1: pause: not found
+Results
+AEROSPACE
+Expected Output
+AEROSPACE

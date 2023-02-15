@@ -1,0 +1,53 @@
+Instructions
+Write a program that uses the class productType defined in Exercises 8 and _10_ of this chapter.
+
+Grading
+When you have completed your program, click the Submit button to record your score.
+
+
+
+
+
+Tasks
+10.00
+out of
+10.00
+Program produces correct output
+
+0
+1 out of 1 checks passed. Great work!
+
+Checks
+Unit TestComplete
+Program produces correct output
+
+Build Status
+Build Succeeded
+Test Output
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Products
+[ RUN      ] Products.1
+[       OK ] Products.1 (0 ms)
+[----------] 1 test from Products (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+Test Contents
+TEST(Products, 1) {
+  testing::internal::CaptureStdout();
+  productType product1;
+  productType product2("Microwave", "M3562", "GeneralPool",
+                       35, 175.00, 0.1);
+  productType product3("D1290", 25, 375.00, 0.05);
+  productType product4(10, 8.50, 0.2);
+
+  product1.print();
+  cout << "***************" << endl << endl;
+
+  product2.print();
+  cout << "***************" << endl << endl;
+  std::string output = testing::internal::GetCapturedStdout();
+  ASSERT_EQ(output, "Product Name: \nProduct ID: \nManufacturer: \nQuantities In Stock: 0\nPrice: 0\nDiscount: 0\n***************\n\nProduct Name: Microwave\nProduct ID: M3562\nManufacturer: GeneralPool\nQuantities In Stock: 35\nPrice: 175\nDiscount: 0.1\n***************\n\n");
+}

@@ -1,0 +1,10 @@
+Richmond
+5000
+Johns
+60000
+Hopkins
+25000
+Smith
+80000
+McCoy
+59000

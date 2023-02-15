@@ -1,0 +1,202 @@
+Instructions
+Write a program that uses a two-dimensional array to store the highest and lowest temperatures for each month of the year. The program should output the average high, average low, and the highest and lowest temperatures for the year. Your program must consist of the following functions:
+
+Function getData: This function reads and stores data in the two-dimensional array.
+Function averageHigh: This function calculates and returns the average high temperature for the year.
+Function averageLow: This function calculates and returns the average low temperature for the year.
+Function indexHighTemp: This function returns the index of the highest high temperature in the array.
+Function indexLowTemp: This function returns the index of the lowest low temperature in the array.
+
+These functions must all have the appropriate parameters.
+
+Grading
+When you have completed your program, click the Submit button to record your score.
+
+
+
+
+
+Tasks
+10.00
+out of
+10.00
+Program outputs correctly and contains appropriate functions
+
+0
+7 out of 7 checks passed. Great work!
+
+Checks
+Code PatternComplete
+Check for function getData
+
+Description
+Searched your code for a specific pattern:
+
+void.getData\(
+
+You can learn more about regular expressions here.
+
+Code PatternComplete
+Check for function averageHigh
+
+Description
+Searched your code for a specific pattern:
+
+int.averageHigh\(
+
+You can learn more about regular expressions here.
+
+Code PatternComplete
+Check for function averageLow
+
+Description
+Searched your code for a specific pattern:
+
+int.averageLow\(
+
+You can learn more about regular expressions here.
+
+Code PatternComplete
+Check for function indexHighTemp
+
+Description
+Searched your code for a specific pattern:
+
+int.indexHighTemp\(
+
+You can learn more about regular expressions here.
+
+Code PatternComplete
+Check for function indexLowTemp
+
+Description
+Searched your code for a specific pattern:
+
+int.indexLowTemp\(
+
+You can learn more about regular expressions here.
+
+Test CaseComplete
+Successful Output
+
+Input
+87
+89
+50
+86
+98
+99
+44
+55
+78
+65
+52
+102
+12
+1
+4
+8
+50
+30
+20
+21
+6
+9
+2
+7
+Output
+87
+89
+50
+86
+98
+99
+44
+55
+78
+65
+52
+102
+12
+1
+4
+8
+50
+30
+20
+21
+6
+9
+2
+7
+871289150486898509930442055217866595221027
+Average high temperature: 75
+Average low temperature: 14
+Highest temperature: 102
+Lowest temperature: 1
+Results
+Average high temperature: 75Average low temperature: 14Highest temperature: 102Lowest temperature: 1
+Expected Output
+Average high temperature: 75Average low temperature: 14Highest temperature: 102Lowest temperature: 1
+Test CaseComplete
+Successful Output II
+
+Input
+5
+5
+5
+6
+5
+5
+5
+5
+5
+5
+5
+5
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Output
+5
+5
+5
+6
+5
+5
+5
+5
+5
+5
+5
+5
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+515050605050505050505050
+Average high temperature: 5
+Average low temperature: 0
+Highest temperature: 6
+Lowest temperature: 0
+Results
+Average high temperature: 5Average low temperature: 0Highest temperature: 6Lowest temperature: 0
+Expected Output
+Average high temperature: 5Average low temperature: 0Highest temperature: 6Lowest temperature: 0
